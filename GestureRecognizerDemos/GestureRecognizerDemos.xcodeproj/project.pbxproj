@@ -12,7 +12,7 @@
 		D306C2671B96322C0097EE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D306C2651B96322C0097EE06 /* Main.storyboard */; };
 		D306C2691B96322C0097EE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D306C2681B96322C0097EE06 /* Assets.xcassets */; };
 		D306C26C1B96322C0097EE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D306C26A1B96322C0097EE06 /* LaunchScreen.storyboard */; };
-		D3E3791E1B963C7200246ECD /* troll.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E3791D1B963C7200246ECD /* troll.png */; settings = {ASSET_TAGS = (); }; };
+		D3E3791E1B963C7200246ECD /* troll.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E3791D1B963C7200246ECD /* troll.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +98,7 @@
 				TargetAttributes = {
 					D306C25D1B96322C0097EE06 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = L952KSTMA9;
 					};
 				};
 			};
@@ -252,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestureRecognizerDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.GestureRecognizerDemos;
@@ -263,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GestureRecognizerDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.GestureRecognizerDemos;
